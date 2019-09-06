@@ -2,11 +2,12 @@ import React from 'react';
 
 function Form() {
     return(
-    <div>
+    <div className="container border">
         <form>
             <input type='text' placeholder="Search..."/>
-            <input type="checkbox" />
-            <span>Only show items in stock</span>
+            <div>
+                <input type="checkbox" id="myCheck"/> Only show items in stock
+            </div>
         </form>
     </div>
         
