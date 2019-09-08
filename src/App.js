@@ -6,7 +6,7 @@ import List from './List';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container border bg-dark">
       <Form />
       <List />
     </div>

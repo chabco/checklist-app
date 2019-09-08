@@ -2,9 +2,9 @@ import React from 'react';
 
 function Form() {
     return(
-    <div className="container border">
+    <div className="border bg-dark text-white">
         <form>
-            <input type='text' placeholder="Search..."/>
+            <input className="App" type='text' placeholder="Search..."/>
             <div>
                 <input type="checkbox" id="myCheck"/> Only show items in stock
             </div>

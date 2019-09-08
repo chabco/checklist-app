@@ -2,7 +2,7 @@ import React from 'react';
 
 function Electronics() {
     return(
-        <div className="container border">
+        <div className="border bg-primary text-white">
             <div className="row">
                 <div className="col-sm">
                     iPod Touch

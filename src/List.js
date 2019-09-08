@@ -4,7 +4,8 @@ import Electronics from './Electronics';
 
 function List() {
     return(
-        <div className="container border">
+        
+        <div className="bg-info border">
             <div className="row">
                 <div className="col-sm">
                     Name
@@ -13,12 +14,9 @@ function List() {
                     Price
                 </div>
             </div>
-
-
-
-            <div className="container border">Sporting Goods</div>
+            <div className="border bg-success text-white">Sporting Goods</div>
             <SportingGoods />
-            <div className="container border">Electronics</div>
+            <div className="border bg-success text-white">Electronics</div>
             <Electronics />
         </div>
     )
